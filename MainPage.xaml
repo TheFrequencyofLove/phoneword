@@ -34,11 +34,16 @@
                                    Spacing="20"
                                    HorizontalOptions="Center">
                 <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                    x:Name="CounterBtn"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center"
+                />                
+
+                <Button
+
+                />
 
             </HorizontalStackLayout>
            
